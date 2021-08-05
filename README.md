@@ -23,8 +23,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
     ├──── 2/
@@ -34,8 +34,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
     ...
@@ -46,8 +46,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
           
@@ -59,8 +59,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
     ├──── 2/
@@ -70,8 +70,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
     ...
@@ -82,8 +82,8 @@ The data structure in the repository is as follows:
           ├──── ...
           └──── 5.bmp
        ├──── right/
-          ├──── 1.png
-          ├──── 2.png
+          ├──── 1.bmp
+          ├──── 2.bmp
           ├──── ...
           └──── 5.bmp
 ```
