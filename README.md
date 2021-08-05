@@ -4,7 +4,7 @@
 The repository was created within the framework of the scientific research "The method of identifying a person by the iris using a neural network approach at the stages of segmentation and the formation of a feature representation".
 
 
-The research uses an open dataset MMU Iris Database [1] provided by Multimedia University.
+The research uses an open dataset [MMU Iris Database] [1] provided by Multimedia University.
 
 The dataset contains 450 images of the eyes of 45 people. There are 10 images for each person. In this case, the first five images are images of the right eye, the second five images are images of the left eye.
 
