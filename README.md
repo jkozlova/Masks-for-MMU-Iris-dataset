@@ -88,6 +88,11 @@ The data structure in the repository is as follows:
           └──── 5.bmp
 ```
 
+
+# Acknowledgements
+
+MultiMedia University
+
 # Links
 
 ||Link|
