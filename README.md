@@ -11,126 +11,47 @@ The dataset contains 450 images of the eyes of 45 people. There are 10 images fo
 To implement the stage of iris segmentation using a neural network approach and subsequent assessment of the quality of segmentation, ground-truth segmentation masks are necessary. In this regard, we performed manual segmentation of the entire data set using Photoshop.
 
 The data structure in the repository is as follows:
-> dataset
->> images
->>> 1
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>
->>> 2
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>
->>> ...
->>>
->>> 45
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>
->> mask
->>> 1
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>
->>> 2
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>
->>> ...
->>>
->>> 45
->>>> left
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
->>>>
->>>> right
->>>>> 1.bmp
->>>>> 
->>>>> 2.bmp
->>>>> 
->>>>> ...
->>>>> 
->>>>> 5.bmp
+`Dataset` 
+```
+├──── images/
+    ├──── 1/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
+          ├──── ...
+    ├──── 2/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
+          ├──── ...
+    ├──── ...
+    ├──── 45/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
+          ├──── ...
+```
 
 # Links
 
