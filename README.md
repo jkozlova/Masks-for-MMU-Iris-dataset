@@ -50,6 +50,42 @@ The data structure in the repository is as follows:
           ├──── 2.png
           ├──── ...
           └──── 5.bmp
+          
+├──── mask/
+    ├──── 1/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
+    ├──── 2/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
+    ...
+    ├──── 45/
+       ├──── left/
+          ├──── 1.bmp
+          ├──── 2.bmp
+          ├──── ...
+          └──── 5.bmp
+       ├──── right/
+          ├──── 1.png
+          ├──── 2.png
+          ├──── ...
+          └──── 5.bmp
 ```
 
 # Links
