@@ -32,23 +32,28 @@ The data structure in the repository is as follows:
 >>>>> 2.bmp
 >>>>> ...
 >>>>> 5.bmp
+>>>>
 >>>> right
 >>>>> 1.bmp
 >>>>> 2.bmp
 >>>>> ...
 >>>>> 5.bmp
+>>>
 >>> ...
+>>>
 >>> 45
 >>>> left
 >>>>> 1.bmp
 >>>>> 2.bmp
 >>>>> ...
 >>>>> 5.bmp
+>>>>
 >>>> right
 >>>>> 1.bmp
 >>>>> 2.bmp
 >>>>> ...
 >>>>> 5.bmp
+>>
 >> mask
 
 # Links
