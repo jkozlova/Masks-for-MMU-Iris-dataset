@@ -1,56 +1,23 @@
-# MMU-Iris-Mask
+# Masks for MMU Iris dataset
 
+The repository contains ground-truth segmentation masks for [MMU Iris Database] originally provided by Multimedia University (http://pesonna.mmu.edu.my/ccteo/).
+You can also find the original dataset in alternative sources on the Internet (see Kaggle https://www.kaggle.com/naureenmohammad/mmu-iris-dataset, etc).
 
-The repository was created within the framework of the scientific research "The method of identifying a person by the iris using a neural network approach at the stages of segmentation and the formation of a feature representation".
+We performed manual segmentation of the entire data set containing 450 images of the eyes (45 persons, 10 images for each person: the first 5 images of the right eye, and the second 5 images of the left eye). The ground-truth segmentation masks are supposed to be used for the assessment of the segmentation quality of iris images.
 
+# Publications
 
-The research uses an open dataset [MMU Iris Database](http://pesonna.mmu.edu.my/ccteo/) provided by Multimedia University.
+This repository was used when preparing the following article:
+Title: "The method of identifying a person by the iris using a neural network approach at the stages of segmentation and the formation of a feature representation"
+Authors: Yu.Kh. Ganeeva, E.V. Myasnikov 
+Journal: Computer Optics
 
-The dataset contains 450 images of the eyes of 45 people. There are 10 images for each person. In this case, the first five images are images of the right eye, the second five images are images of the left eye.
-
-To implement the stage of iris segmentation using a neural network approach and subsequent assessment of the quality of segmentation, ground-truth segmentation masks are necessary. In this regard, we performed manual segmentation of the entire data set using Photoshop.
+# Structure of Repository
 
 The data structure in the repository is as follows:
 
-
 `Dataset` 
-```
-├──── images/
-    ├──── 1/
-       ├──── left/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-       ├──── right/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-    ├──── 2/
-       ├──── left/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-       ├──── right/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-    ...
-    ├──── 45/
-       ├──── left/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-       ├──── right/
-          ├──── 1.bmp
-          ├──── 2.bmp
-          ├──── ...
-          └──── 5.bmp
-          
+```         
 ├──── mask/
     ├──── 1/
        ├──── left/
@@ -91,7 +58,7 @@ The data structure in the repository is as follows:
 
 # Acknowledgements
 
-MultiMedia University
+We thank our colleagues from MultiMedia University and personally Chuan-Chin Teo for providing the original [MMU Iris Database].
 
 # Links
 
