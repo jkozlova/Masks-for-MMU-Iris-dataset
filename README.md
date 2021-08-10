@@ -61,9 +61,4 @@ The data structure in the repository is as follows:
 
 We thank our colleagues from MultiMedia University and personally Chuan-Chin Teo for providing the original [MMU Iris Database](http://pesonna.mmu.edu.my/ccteo/).
 
-# Links
-
-||Link|
-|:------:|:-----------:|
-|1|http://pesonna.mmu.edu.my/ccteo/|
 
