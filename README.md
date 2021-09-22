@@ -6,13 +6,6 @@ We performed manual segmentation of the entire data set containing 450 images of
 
 The ground-truth segmentation masks are supposed to be used for the assessment of the segmentation quality of iris images.
 
-# Publications
-
-This repository was used when preparing the following article:
-* Title: "Identifying a person by iris images using a neural network approach for the segmentation and feature extraction"
-* Authors: Yu.Kh. Ganeeva, E.V. Myasnikov 
-* Journal: Computer Optics
-
 # Structure of Repository
 
 The data structure in the repository is as follows:
