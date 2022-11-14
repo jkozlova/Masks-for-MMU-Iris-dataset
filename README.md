@@ -49,6 +49,12 @@ The data structure in the repository is as follows:
           └──── 5.bmp
 ```
 
+# Publications
+
+This repository was used when preparing the following article:
+* Title: "Identifying a person by iris images using a neural network approach for the segmentation and feature extraction"
+* Authors: Yu.Kh. Ganeeva, E.V. Myasnikov 
+* Journal: Computer Optics
 
 # Acknowledgments
 
