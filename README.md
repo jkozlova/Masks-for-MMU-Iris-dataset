@@ -51,10 +51,16 @@ The data structure in the repository is as follows:
 
 # Publications
 
-This repository was used when preparing the following article:
+This repository was used when preparing the following articles:
 * Title: "Identifying a person by iris images using a neural network approach for the segmentation and feature extraction"
 * Authors: Yu.Kh. Ganeeva, E.V. Myasnikov 
 * Journal: Computer Optics
+
+
+* Title: "Development of a Method for Iris-Based Person Recognition Using Convolutional Neural Networks"
+* Authors: Yu.Kh. Ganeeva, E.V. Myasnikov 
+* Journal:  Lecture Notes in Computer Science
+
 
 # Acknowledgments
 
